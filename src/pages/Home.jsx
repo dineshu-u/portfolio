@@ -18,9 +18,18 @@ export default function Home() {
 
       <main>
         <section className="hero" id="home">
+          <div className="hero-kinetic-bg" aria-hidden="true">
+            <span className="shape shape-one" />
+            <span className="shape shape-two" />
+            <span className="shape shape-three" />
+            <span className="scan-line" />
+          </div>
           <div className="hero-grid container">
             <div className="hero-copy reveal-up">
-              <p className="availability"><span /> Open to software engineering opportunities</p>
+              <div className="hero-mini-row">
+                <p className="availability"><span /> Open to software engineering opportunities</p>
+                <p className="weather-chip">Chennai · IT Student</p>
+              </div>
               <h1>
                 Building realtime apps with <span>clean code</span> and product thinking.
               </h1>
@@ -37,6 +46,10 @@ export default function Home() {
                 <div><strong>2</strong><span>Major Projects</span></div>
                 <div><strong>2028</strong><span>B.Tech Expected</span></div>
               </div>
+              <a className="scroll-cue" href="#about">
+                <span />
+                Scroll to explore
+              </a>
             </div>
 
             <DraggableHeroCard />

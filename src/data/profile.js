@@ -2,7 +2,7 @@ export const profile = {
   name: 'Dinesh B',
   location: 'Chennai, Tamil Nadu',
   email: 'mailboxofdineshu@gmail.com',
-  phone: '+91 90946 43879',
+  phone: 'private',
   portfolio: 'https://dineshu-u.github.io/portfolio/',
   linkedIn: 'https://linkedin.com/in/dinesh-b-20242032a',
   resume: '/Dinesh-Resume.pdf',
@@ -31,25 +31,30 @@ export const skillGroups = [
       'TypeScript',
       'Dart',
       'SQL',
-      'HTML',
-      'CSS',
       'React Native',
+      'Expo',
+      'Flutter',
       'FastAPI',
       'Node.js',
-      'PostgreSQL'
+      'PostgreSQL',
+      'supabase',
+      'HTML',
+      'CSS',
+      'Tailwind CSS',
+      
     ]
   },
   {
     title: 'Tools & Platforms',
     accent: 'violet',
     description: 'Development, deployment, collaboration and integration tools from the resume.',
-    skills: ['Git', 'GitHub', 'VS Code', 'Docker', 'REST APIs', 'WebSockets', 'SQLite', 'AWS', 'Claude Code']
+    skills: ['Git', 'GitHub', 'VS Code', 'Docker', 'REST APIs', 'WebSockets', 'SQLite', 'AWS', 'Claude Code', 'Firebase', 'Android Studio', 'Vite', 'npm', 'Antigravity', ]
   },
   {
     title: 'Core Concepts',
     accent: 'amber',
     description: 'Engineering strengths built through realtime, low-memory and secure application work.',
-    skills: ['Real-time systems', 'WebSocket protocols', 'Memory profiling', 'DES decryption', 'Async I/O']
+    skills: ['OOPs', 'Real-time systems', 'WebSocket protocols', 'Memory profiling', 'DES decryption', 'Async I/O']
   }
 ];
 
@@ -79,7 +84,7 @@ export const projects = [
       { label: 'Data Layer', value: 'Supabase RLS' },
       { label: 'Realtime', value: 'Feeds + Push' }
     ],
-    apk: 'https://expo.dev/artifacts/eas/B83Beq383IjIqfcIsFigLGd2lM0ZFii7h9rJ1W1rOyQ.apk',
+    apk: 'https://expo.dev/artifacts/eas/wa6HE5W9HtW0Hzl4MfguAArveg--ehfqdV_Rlz-VQL8.apk',
     primaryCta: 'Download APK',
     icon: '📦',
     gradient: 'from-cyan'

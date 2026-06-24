@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { profile } from '../data/profile.js';
+import ThemeToggle from './ThemeToggle.jsx';
 
 const navItems = [
   { href: '#about', label: 'About' },
@@ -64,6 +65,7 @@ export default function Navbar() {
             </a>
           )
         )}
+        <ThemeToggle />
         <a className="nav-cta" href={profile.resume} download onClick={close}>
           Resume
         </a>
